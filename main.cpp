@@ -23,7 +23,6 @@ boolean checkDevice(bleDevice currentDevice){
   printf("checkDevice\n");
   if (currentDevice.hasName("test",4)){
     printf("name is correct, UUID %i",currentDevice.getUUID());
-
     myDevice = currentDevice;
     foundDevice = true;
     return true;
